@@ -33,12 +33,12 @@ variable "atlas_org_id" {
 }
 
 
-variable "gcp_region" {
+variable "region" {
  type    = string
  default = "northamerica-northeast1"
 }
 
-variable "gcp_zone" {
+variable "zone" {
  type    = string
  default = "northamerica-northeast1-a"
 }
@@ -80,7 +80,7 @@ variable "mongo_db_major_version" {
  default = "7.0"
 }
 
-variable "gcp_project_id" {
+variable "project_id" {
  type    = string
  default = ""
 }

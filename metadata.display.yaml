@@ -49,13 +49,13 @@ spec:
           name: database_password_secret
           title: Database Password Secret
         gcp_project_id:
-          name: gcp_project_id
+          name: project_id
           title: Gcp Project Id
         gcp_region:
-          name: gcp_region
+          name: region
           title: Gcp Region
         gcp_zone:
-          name: gcp_zone
+          name: zone
           title: Gcp Zone
         instance_size:
           name: instance_size

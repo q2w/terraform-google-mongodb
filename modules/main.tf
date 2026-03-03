@@ -28,7 +28,7 @@ user_invite_list = tolist(split(", ", var.user_invite_list))
 
 data "google_secret_manager_secret_version" "db_secret_password" {
   count = var.database_password_secret != "" && var.database_password_secret != null ? 1 : 0
-  project = var.gcp_project_id
+  project = var.project_id
   secret  = var.database_password_secret 
   version = "latest"           
 }

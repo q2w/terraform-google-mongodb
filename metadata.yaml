@@ -73,11 +73,11 @@ spec:
         varType: string
         defaultValue: ""
 
-      - name: gcp_region
+      - name: region
         varType: string
         defaultValue: northamerica-northeast1
 
-      - name: gcp_zone
+      - name: zone
         varType: string
         defaultValue: northamerica-northeast1-a
 
@@ -109,7 +109,7 @@ spec:
         varType: string
         defaultValue: "7.0"
 
-      - name: gcp_project_id
+      - name: project_id
         varType: string
         defaultValue: ""
         connections:
