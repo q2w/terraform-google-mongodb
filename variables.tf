@@ -80,7 +80,7 @@ variable "mongo_db_major_version" {
  default = "7.0"
 }
 
-variable "project_id" {
+variable "gcp_project_id" {
  type    = string
  default = ""
 }
