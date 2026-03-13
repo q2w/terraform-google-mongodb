@@ -42,7 +42,8 @@ org_id = var.atlas_org_id
 resource "mongodbatlas_cluster" "cluster" {
 project_id                  = mongodbatlas_project.project.id
 name                        = var.cluster_name 
-provider_name               = "GCP"
+provider_name               = "TENANT"
+backing_provider_name       = "GCP"
 provider_instance_size_name = var.instance_size 
 provider_region_name        = local.mongo_location
 mongo_db_major_version      = var.mongo_db_major_version
