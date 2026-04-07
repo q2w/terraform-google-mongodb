@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "application_design_center": {
+      "serverUrl": "https://designcenter.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "disabledTools": []
+    },
+    "google_cloud_assist": {
+      "serverUrl": "https://geminicloudassist.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "disabledTools": []
+    }
+  }
+}
